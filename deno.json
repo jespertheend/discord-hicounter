@@ -1,0 +1,12 @@
+{
+	"tasks": {
+		"run": "deno run --allow-env --allow-read --allow-net=discord.com,gateway.discord.gg main.ts",
+		"dev": "deno run --inspect-brk --allow-env --allow-read --allow-net=discord.com,gateway.discord.gg main.ts"
+	},
+	"fmt": {
+		"options": {
+			"indentWidth": 4,
+			"useTabs": true
+		}
+	}
+}
